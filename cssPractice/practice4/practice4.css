@@ -1,0 +1,21 @@
+.box{
+    border: solid 2px gray;
+    width: 400px;
+}
+
+.line{
+    border-top: solid 2px gray;
+}
+
+.img{
+    width: 400px;
+}
+
+.margin{
+    margin: 10px 10px;
+}
+
+.yellow{
+    color:gold;
+    font-weight: bolder;
+}

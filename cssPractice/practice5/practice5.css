@@ -1,0 +1,42 @@
+.background{
+    width:400px;
+    height: 550px;
+    background-color: lemonchiffon;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.img{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.margin-top{
+    padding-top: 25px;
+}
+.h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px auto;
+}

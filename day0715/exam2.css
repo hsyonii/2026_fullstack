@@ -1,0 +1,68 @@
+/* 
+1)inline: span,a 등
+- 한줄을 쪼개서 들어감(한줄 다 차지X), 크기&여백 설정X
+2)block: div,h 등
+- 한줄 다 차지, 크기&여백 설정ㅇ
+3)inline-block: img, input 등
+- 한줄을 쪼개서 들어감(한줄 다 차지X), 크기&여백 설정ㅇ
+*/
+
+/*전체구역에 테두리 설정*/
+*{
+    border: solid 2px red;
+}
+
+.box1{
+    width: 100px;
+}
+
+.flexbox1{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    width: 400px;
+    /*하위 요소들의 크기가 구역보다 커지면 하위요소 자동 크기조정*/
+    flex-wrap: nowrap;
+}
+
+.flexbox2{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    width: 400px;
+    /*하위 요소들의 크기가 구역보다 커지면 하위요소 자동 줄바꿈*/
+    flex-wrap: wrap;
+}
+
+.flexbox3{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    width: 400px;
+    /* flex-direction: row 요소 가로배치 */
+    flex-direction: column; /*세로배치*/
+}
+
+.flexbox4{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    justify-content: center; /* 가운데 정렬 */
+}
+
+.flexbox5{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    justify-content: flex-end; /* 오른쪽 정렬 */
+}
+
+.flexbox6{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    justify-content: space-between; /* 사이여백 균등 정렬 */
+}
+
+.flexbox7{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    justify-content: space-evenly; /* 양쪽&사이여백 균등 정렬 */
+}
+
+.flexbox8{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    gap:20px ; /* 양쪽&사이여백 균등 정렬 */
+}
+
+.flexbox9{
+    display: flex; /*display: 하위요소 배치 방법설정*/
+    gap:10px 20px; /* 양쪽&사이여백 균등 정렬 */
+}

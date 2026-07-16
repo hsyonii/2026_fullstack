@@ -1,0 +1,263 @@
+*{
+    text-align: center;
+}
+
+.box{
+    background-color: gold;
+    width: 550px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: auto; /*box 중앙정렬*/
+}
+
+.title{
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;     
+}
+
+.menu > div { /*img+h2 들어있는 div*/
+  width: 120px;       
+  text-align: center;
+}
+
+.menu_text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img{
+    width: 100px;
+    height: 150px;
+}
+
+.cart_box{
+    width: 550px;
+    height: 160px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.cart_title{
+    color:gold;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cart_text{
+    font-size: 20px;
+}
+
+.number{
+    width: 30px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 30px;
+}
+
+.button>button{
+    width:140px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* page2 */
+
+/* 전체 화면 */
+/* 주문상세 전체 박스 */
+.전체박스 {
+    width: 550px;
+    margin:auto;
+    border:solid 3px gold;
+    border-radius: 20px;
+    background-color: gold;
+    padding-bottom: 30px;   
+}
+
+
+/* 주문상세 제목 박스 */
+.제목박스 {
+    padding: 15px;
+}
+
+
+/* 주문상세 제목 */
+.주문상세제목 {
+    color: white;
+    margin: 0;
+    font-size: 35px;
+}
+
+
+/* 메뉴 이미지 */
+.메뉴이미지 {
+    margin-top: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+
+/* 메뉴 정보 영역 */
+.메뉴정보 {
+    background-color: white;
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+/* 메뉴와 가격 한 줄 */
+.메뉴정보줄 {
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* 메뉴, 가격 제목 */
+.정보제목 {
+    display: inline-block;
+    width: 50px;
+}
+
+
+/* 샷, 사이즈, 포장 여부, 온도 영역 */
+.선택박스 {
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+
+/* 샷, 사이즈 선택 등의 제목 */
+.글자 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: start;
+}
+
+
+/* 라디오 버튼과 글자 */
+label {
+    margin-right: 12px;
+
+    font-size: 16px;
+}
+
+/* 사이즈 선택 */
+.사이즈1 {
+    padding-right: 23px;
+}
+
+
+/* 먹고가기 */
+.먹기1 {
+    padding-right: 15px;
+}
+
+
+/* Hot */
+.온도1 {
+    padding-right: 55px;
+}
+
+
+/* 사이즈 영역 */
+.box1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+/* 포장 여부 영역 */
+.box2 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+/* 온도 영역 */
+.box3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+/* 수량과 주문하기 전체 영역 */
+.box4 {
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+
+/* 수량 선택 박스 */
+.box5 {
+    display: inline-block;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+/* 주문하기 버튼 영역 */
+.box6 {
+    margin-left: 20px;
+}
+
+
+/* 수량 글자 */
+.수량글자 {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* 수량 숫자 */
+#count {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* +, - 버튼 */
+.버튼2 {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #777777;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+}
+
+
+/* 주문하기 버튼 */
+.버튼1 {
+    padding: 12px 40px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b4423;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}

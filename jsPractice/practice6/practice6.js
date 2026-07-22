@@ -118,3 +118,17 @@ function renderList(list){
     document.querySelector("ol").innerHTML=html8
 }
 renderList(toDo)
+
+// 실습9
+function getTicketPrice(age){
+    let ticketPrice=''
+    if(age<8)
+        ticketPrice='무료'
+    else if(8<=age && age<=19)
+        ticketPrice='5,000원'
+    else
+        ticketPrice='10,000원'
+    return ticketPrice
+}
+let re9 = getTicketPrice(24)
+console.log(re9)

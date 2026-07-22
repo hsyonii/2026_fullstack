@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--전체-->
+    <div>
+        <h1>미니 가계부</h1>
+        <!--등록영역-->
+        <div>
+            <h3>등록 영역</h3>
+            <div>
+                <div>날짜선택: <input class="날짜선택" type="date"/></div>
+                <div>항목입력: <input class="항목입력"/> </div>
+                <div>금액입력: <input class="금액입력"/> </div>
+                <button onclick = "등록버튼()">등록버튼</button>
+            </div>
+        </div>
+
+        <!--목록영역-->
+        <div>
+            <h3>목록 영역</h3>
+            <div>
+                <table class="목록영역" border="2px">
+                    <tr>
+                        <td>날짜</td>
+                        <td>항목</td>
+                        <td>금액</td>
+                    </tr>
+                    <tr>
+                        <td>2025-06-19</td>
+                        <td>점심 식사</td>
+                        <td>9000</td>
+                    </tr>
+                    <tr>
+                        <td>2025-06-19</td>
+                        <td>교통비</td>
+                        <td>1500</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="practice7.js"></script>
+</body>
+</html>
